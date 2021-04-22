@@ -18,13 +18,62 @@
       crossorigin=""
     ></script>
     <!-- Leaflet documents -->
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
     <title>Flex Additive Competency Centers</title>
   </head>
   <body>
-    <div class="map-container">
-      <div id="map"></div>
-    </div>
+    <main class="main">
+      <!-- header -->
+      <header class="header">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Flex_logo_%282015%29.svg/640px-Flex_logo_%282015%29.svg.png"
+          alt="Flex logo"
+          class="header__logo"
+        />
+        <ul class="header__navigation">
+          <li class="navigation__link">
+            <a
+              href="https://flextronics365.sharepoint.com/sites/additivemanufacturing"
+              >Flex Additive Home Page</a
+            >
+          </li>
+          <li class="navigation__link">
+            <a
+              href="https://flextronics365.sharepoint.com/sites/aminstantquoting/"
+              >Flex Additive Instant quoting tool</a
+            >
+          </li>
+          <li class="navigation__link">
+            <a
+              href="https://apps.powerapps.com/play/daa6a785-3ff2-4779-8743-520fecd48ea4?tenantId=3f0e69e0-eb38-4eb2-b4ee-52919719d31e?l=en-us"
+              >Flex Additive Manufacturing Digital Catalog</a
+            >
+          </li>
+        </ul>
+      </header>
+
+      <!-- map secition -->
+      <section class="home">
+        <h1 class="home__title">Flex Additive Competency Centers</h1>
+        <p class="home__message">
+          Clcik on any marker to display the site's information
+        </p>
+        <div class="home__map-container">
+          <div id="map" class="home__map"></div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="footer">
+        <p class="footer__message">
+          Report any bugs to
+          <a href="mailto:elias.rayas@flex.com" class="message__email"
+            >Elias.Rayas@flex.com</a
+          >.
+        </p>
+      </footer>
+    </main>
+
     <script src="./src/index.js" type="module"></script>
   </body>
 </html>

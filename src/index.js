@@ -3,7 +3,7 @@ import flexSites from "./utils/flexSites.js";
 //create a map using leaflet API
 let map = L.map("map", {
   //object with map initial properties
-  center: [0, 0],
+  center: [20, 0],
   zoom: 2,
   zoomSnap: 0.5,
   zoomDelta: 0.5,
@@ -56,9 +56,9 @@ function createMarker(markerObject) {
 flexSites.forEach((site) => createMarker(site));
 
 //add tootip at the center of the map
-L.popup({
-  closeOnClick: false,
-})
-  .setLatLng([-50, 0])
-  .setContent("Click on any marker to show more information")
-  .openOn(map);
+// L.popup({
+//   closeOnClick: false,
+// })
+//   .setLatLng([-50, 0])
+//   .setContent("Click on any marker to show more information")
+//   .openOn(map);
