@@ -5,10 +5,9 @@ let map = L.map("map", {
   //object with map initial properties
   center: [20, 0],
   zoom: 2,
-  zoomSnap: 0.5,
-  zoomDelta: 0.5,
+  zoomSnap: 0.1,
+  zoomDelta: 0.1,
   minZoom: 2,
-  scrollWheelZoom: false,
   dragging: true,
   maxBounds: [
     [80.703997, -165.9375],
