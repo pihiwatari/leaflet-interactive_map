@@ -13,12 +13,6 @@ const flexSites = [
       "https://flextronics365.sharepoint.com/:p:/r/sites/additivemanufacturing/AM%20Competency%20Centers%20Presentations/Milpitas%203D%20printing%20capabilities.pptx?d=w85fd099b44b049dcab29ea5551a1afa8&csf=1&web=1&e=5zNW7s",
   },
   {
-    name: "Flex Boston Innovation Center",
-    coordinates: [42.344307570206304, -71.02895569551549],
-    documentLink:
-      "https://flextronics365.sharepoint.com/:p:/r/sites/additivemanufacturing/AM%20Competency%20Centers%20Presentations/BIC%203D%20printing%20capabilities.pptx?d=w8ead1c9d4edd483c93bad10987cb686c&csf=1&web=1&e=KD4le9",
-  },
-  {
     name: "Flex Althofen",
     coordinates: [46.87645134704752, 14.465309104788359],
     documentLink: "",
